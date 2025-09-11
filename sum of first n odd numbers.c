@@ -4,7 +4,7 @@ int main()
 {
     int i, n, sum=0;
 
-    printf("Enter upper limit: ");
+    printf("Enter num : ");
     scanf("%d", &n);
 
    
