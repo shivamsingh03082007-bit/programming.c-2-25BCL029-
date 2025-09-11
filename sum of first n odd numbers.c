@@ -1,11 +1,19 @@
 #include <stdio.h>
-int main() {
-    int n, sum = 0;
-    printf("Enter n: ");
+
+int main()
+{
+    int i, n, sum=0;
+
+    printf("Enter upper limit: ");
     scanf("%d", &n);
-    for(int i = 1; i <= n; i++) {
-        sum += 2*i - 1;
+
+   
+    for(i=1; i<=n; i+=2)
+    {
+        sum + = i;
     }
-    printf("Sum = %d\n", sum);
+
+    printf("Sum of odd numbers = %d", sum);
+
     return 0;
 }
