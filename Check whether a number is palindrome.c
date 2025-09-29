@@ -7,7 +7,7 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &num);
 
-    original = num; // Store original number for comparison
+    original = num; 
 
     
     while (num != 0) {
